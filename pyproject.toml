@@ -7,10 +7,13 @@ authors = [
     { name = "neutronleak", email = "joni.hyttinen@uef.fi" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.2",
+    "pyside6>=6.11.2",
+]
 
 [project.scripts]
-idp2025 = "idp2025:main"
+idp2025 = "idp2025.signal_app_main_window:run"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
