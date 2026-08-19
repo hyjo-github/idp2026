@@ -13,9 +13,9 @@ from PySide6.QtCore import Qt, QThreadPool
 from PySide6.QtGui import QCloseEvent
 from PySide6.QtWidgets import QApplication, QFileDialog, QMainWindow, QProgressDialog
 
-from idp2025.signal_app_widget import SignalAppWidget
-from idp2025.signal_converter import SignalConverter
-from idp2025.worker import Worker
+from signal_app.signal_app_widget import SignalAppWidget
+from signal_app.signal_converter import SignalConverter
+from signal_app.worker import Worker
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)

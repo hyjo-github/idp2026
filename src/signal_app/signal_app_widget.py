@@ -8,9 +8,9 @@ import numpy as np
 from PySide6.QtCore import Qt, QThreadPool, Signal, Slot
 from PySide6.QtWidgets import QGridLayout, QPushButton, QWidget
 
-from idp2025.signal_analyzer import SignalAnalyzer
-from idp2025.signal_window_chart_widget import SignalWindowChartWidget
-from idp2025.worker import Worker
+from signal_app.signal_analyzer import SignalAnalyzer
+from signal_app.signal_window_chart_widget import SignalWindowChartWidget
+from signal_app.worker import Worker
 
 
 class SignalAppWidget(QWidget):

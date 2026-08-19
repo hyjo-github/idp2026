@@ -1,10 +1,10 @@
 [project]
-name = "idp2025"
+name = "signal_app"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "neutronleak", email = "joni.hyttinen@uef.fi" }
+    { name = "hyjo-github", email = "joni.hyttinen@uef.fi" }
 ]
 requires-python = ">=3.14"
 dependencies = [
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-idp2025 = "idp2025.signal_app_main_window:run"
+signal_app = "signal_app.signal_app_main_window:run"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]

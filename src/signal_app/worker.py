@@ -8,7 +8,7 @@ import traceback
 
 from PySide6.QtCore import QRunnable, Slot
 
-from idp2025.worker_signals import WorkerSignals
+from signal_app.worker_signals import WorkerSignals
 
 
 class Worker(QRunnable):
